@@ -36,7 +36,7 @@ def contact(request):
             'Property Listing Inquiry',
             'There has been an inquiry for '+listing +'. Sing into the admin panel for more',
             'btreapp@gmail.com',
-            [realtor_email,'jalvespinto@gmail.com'],
+            [realtor_email],
             fail_silently=False
 
         )
